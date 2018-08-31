@@ -143,16 +143,16 @@ public class ContentAdapter extends BaseExpandableListAdapter {
         return convertView;
     }
 
-    class ViewHolderFather {
+    private class ViewHolderFather {
         TextView tvFather;
     }
 
-    class ViewHolderSon01 {
+    private class ViewHolderSon01 {
         TextView tv_info01, tv_time01, tv_name01;
         ImageView iv_pic;
     }
 
-    class ViewHolderSon03 {
+    private class ViewHolderSon03 {
         TextView tv_info03, tv_time03, tv_name03, tv_scname03;
     }
 }
