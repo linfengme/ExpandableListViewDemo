@@ -106,10 +106,10 @@ public class ContentAdapter extends BaseExpandableListAdapter {
                 if (convertView == null) {
                     convertView = LayoutInflater.from(context).inflate(R.layout.son_item01, null);
                     son01 = new ViewHolderSon01();
-                    son01.tv_info01 = (TextView) convertView.findViewById(R.id.tv_info01);
-                    son01.tv_name01 = (TextView) convertView.findViewById(R.id.tv_name01);
-                    son01.tv_time01 = (TextView) convertView.findViewById(R.id.tv_time01);
-                    son01.iv_pic = (ImageView) convertView.findViewById(R.id.iv_pic);
+                    son01.tv_info01 = convertView.findViewById(R.id.tv_info01);
+                    son01.tv_name01 = convertView.findViewById(R.id.tv_name01);
+                    son01.tv_time01 = convertView.findViewById(R.id.tv_time01);
+                    son01.iv_pic = convertView.findViewById(R.id.iv_pic);
                     convertView.setTag(son01);
                 } else {
                     son01 = (ViewHolderSon01) convertView.getTag();
@@ -124,10 +124,10 @@ public class ContentAdapter extends BaseExpandableListAdapter {
                 if (convertView == null) {
                     convertView = LayoutInflater.from(context).inflate(R.layout.son_item02, null);
                     son03 = new ViewHolderSon03();
-                    son03.tv_info03 = (TextView) convertView.findViewById(R.id.tv_info03);
-                    son03.tv_name03 = (TextView) convertView.findViewById(R.id.tv_name03);
-                    son03.tv_time03 = (TextView) convertView.findViewById(R.id.tv_time03);
-                    son03.tv_scname03 = (TextView) convertView.findViewById(R.id.tv_scname03);
+                    son03.tv_info03 = convertView.findViewById(R.id.tv_info03);
+                    son03.tv_name03 = convertView.findViewById(R.id.tv_name03);
+                    son03.tv_time03 = convertView.findViewById(R.id.tv_time03);
+                    son03.tv_scname03 = convertView.findViewById(R.id.tv_scname03);
                     convertView.setTag(son03);
                 } else {
                     son03 = (ViewHolderSon03) convertView.getTag();
