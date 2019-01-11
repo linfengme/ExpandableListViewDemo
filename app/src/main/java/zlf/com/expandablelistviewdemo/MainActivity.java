@@ -10,6 +10,7 @@ import java.util.List;
 public class MainActivity extends Activity {
     private ExpandableListView m_elv;
     private List<String> father_List;// 父层数据
+//    private List<String> father_Lists;// 父层数据
     private List<List<ContentEntity>> list_Son;// 子层数据
     private int[] img = {R.drawable.ic_launcher, R.drawable.ic_launcher};
 
