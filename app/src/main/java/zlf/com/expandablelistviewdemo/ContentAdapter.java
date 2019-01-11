@@ -16,7 +16,7 @@ public class ContentAdapter extends BaseExpandableListAdapter {
     private Context context;
     private final int TYPE_1 = 0;
     private final int TYPE_2 = 1;
-//    private final int TYPE_3 = 0;
+
 
     public ContentAdapter(Context context, List<String> father_List, List<List<ContentEntity>> list_Son) {
         super();
